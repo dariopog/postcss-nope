@@ -1,7 +1,7 @@
 {
   "name": "postcss-nope",
   "version": "0.0.0",
-  "description": "PostCSS plugin that lets you write 'nope' instead of 'none'",
+  "description": "PostCSS plugin that lets you write `nope` instead of `none`",
   "keywords": [
     "postcss",
     "css",
@@ -9,7 +9,7 @@
     "nope",
     "none"
   ],
-  "author": "Dario Poggiali <dariopog@users.noreply.github.com>",
+  "author": "Dario Poggiali @dariopog",
   "license": "MIT",
   "repository": "dariopog/postcss-nope",
   "bugs": {
