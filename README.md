@@ -12,6 +12,9 @@ All started with a tweet from [@brad_frost](https://twitter.com/brad_frost):
 [ci-img]:  https://travis-ci.org/dariopog/postcss-nope.svg
 [ci]:      https://travis-ci.org/dariopog/postcss-nope
 
+## Syntax
+All declaration values set to `nope` are transformed to `none`:
+
 Input:
 ```css
 .foo {
@@ -25,6 +28,7 @@ Output:
     display: none;
 }
 ```
+It works with any declaration, not just with `display`!
 
 ## Usage
 ```js
