@@ -5,7 +5,7 @@ Without any doubt the best [PostCSS] plugin in the world! It lets you write `nop
 All started with a tweet from [@brad_frost](https://twitter.com/brad_frost):
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dariopog/postcss-nope/master/brad_frost.png" alt="I just wrote display: nope." width="594" height="107"/>
+  <img src="https://raw.githubusercontent.com/dariopog/static/master/postcss-nope/brad_frost.png" alt="I just wrote display: nope." width="594" height="107"/>
 </p>
 
 [PostCSS]: https://github.com/postcss/postcss
