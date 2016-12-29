@@ -12,3 +12,7 @@ function run(input, output, opts) {
 it('should trasform \'display: nope;\' to \'display: none;\'', () => {
     return run('a{display: nope;}', 'a{display: none;}', {});
 });
+
+it('should not trasform \'content: "nope";\'', () => {
+    return run('a:after{content: "nope";}', 'a:after{content: "nope";}', {});
+});
