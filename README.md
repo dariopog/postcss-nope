@@ -28,7 +28,7 @@ Output:
     display: none;
 }
 ```
-It works with any declaration, not just with `display`!
+PS: it works with any declaration, not just with `display`!
 
 ## Usage
 ```js
@@ -36,6 +36,9 @@ postcss([ require('postcss-nope') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+## Social
+Follow [@postcss_nope](https://twitter.com/postcss_nope) to get the latest updates.
 
 ## License
 MIT © [@dariopog](https://twitter.com/dariopog)
