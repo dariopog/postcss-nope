@@ -14,6 +14,7 @@ npm install postcss-nope --save-dev
 Include it in your build pipeline (for example using [Gulp](http://gulpjs.com/)):
 ```js
 var gulp = require('gulp');
+var postcss = require('postcss');
 var nope = require('postcss-nope');
 
 gulp.task('css', function () {
