@@ -16,3 +16,8 @@ it('should trasform \'display: nope;\' to \'display: none;\'', () => {
 it('should not trasform \'content: "nope";\'', () => {
     return run('a:after{content: "nope";}', 'a:after{content: "nope";}', {});
 });
+
+it('should trasform \'nope\' to \'none\' leaving \'important!\'', () => {
+    return run( 'a{display: nope !important;}',
+                'a{display: none !important;}', {});
+});
